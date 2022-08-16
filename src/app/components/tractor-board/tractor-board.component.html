@@ -1,0 +1,7 @@
+<div class="content" style="margin:2ex">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let tractor of tractors">
+        <app-tractor-card [details]="tractor"></app-tractor-card>
+      </div>
+    </div>
+</div>
